@@ -1,0 +1,45 @@
+{
+
+  "name": "Heroku-Mega-uploade-Bot",
+
+  "description": "Mega uploade",
+
+  "keywords": ["Mega","python"],
+
+  "repository": "",
+
+  "env": {
+
+    "bot_token": {
+
+      "description": "Your bot token, as a string.",
+
+      "value": ""
+
+    },
+
+    "api_id": {
+
+      "description": "Get this value from https://my.telegram.org",
+
+      "value": ""
+
+    },
+
+    "api_hash": {
+
+      "description": "Get this value from https://my.telegram.org",
+
+      "value": ""
+      
+      },
+
+    "phone_number": {
+
+      "description": "Get your phone number",
+
+      "value": ""
+      
+     }
+  }
+}
