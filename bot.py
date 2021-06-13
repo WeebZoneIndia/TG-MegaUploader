@@ -24,7 +24,7 @@ mega = Mega()
 
 '''Some permanent Variables defined'''
 dev = (1116098563) #AJTimePyro
-common_text = "\n\n<u>If you facing any problem, so report at@Yeageristbotsdev</u>"
+common_text = "\n\n<u>If you facing any problem, so report at @ToonsHub2006</u>"
 start1 = "<i>To login your account send login detail in this format email,password.</i>\n"
 start_msg = f"<b>I am a Bot.</b>\n\n{start1}\nWe will store your login detail so that you don't have to login everytime you use. So provide your temporary account for your security.{common_text}"
 help_msg = f"{start1}\nAfter login send direct downloading link.\n\nTo remove your account use /revoke.{common_text}"
@@ -51,11 +51,11 @@ client.connect()
 '''Adding Functionalityto Bot!'''
 #Checking whether user is joined the Channel
 async def search_user_in_channel(userid):
-    users = await client.get_participants('AJBotVerse')
+    users = await client.get_participants('toonshubleechgroup')
     for user in users:
         if str(user.id) == str(userid):
             return True
-    await bot.send_message(int(userid), not_joined_channel, buttons = Button.url('Join our Channel','https://t.me/Animemusicarchive6'))
+    await bot.send_message(int(userid), not_joined_channel, buttons = Button.url('Join our Channel','https://t.me/toonshubleechgroup'))
     return False
 
 #Adding user who are logged in
